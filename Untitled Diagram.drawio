@@ -1,23 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T16:50:16.831Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="G7TsxOvHZwwVNNxM1uD3" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T17:19:05.275Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="xJjveVdSdXhCOV-74m5y" version="24.2.2" type="github">
   <diagram id="47968ZH2UGAHH1jrkv92" name="Страница — 1">
-    <mxGraphModel dx="802" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bGzbynP_THFLUyQUrvt6-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-11" target="bGzbynP_THFLUyQUrvt6-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bGzbynP_THFLUyQUrvt6-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-11" target="bGzbynP_THFLUyQUrvt6-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bGzbynP_THFLUyQUrvt6-11" value="Content Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bGzbynP_THFLUyQUrvt6-11" value="&lt;div&gt;&lt;b&gt;Window&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(AdwWindow)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bGzbynP_THFLUyQUrvt6-12" value="Data Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-12" target="TEnQ_Mk2z_te3B2iNOMz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="bGzbynP_THFLUyQUrvt6-13" value="Header Bar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="50" width="120" height="40" as="geometry" />
+        <mxCell id="bGzbynP_THFLUyQUrvt6-12" value="&lt;b&gt;Data Manager&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-13" target="TEnQ_Mk2z_te3B2iNOMz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bGzbynP_THFLUyQUrvt6-13" value="&lt;div&gt;&lt;b&gt;Header Bar&lt;/b&gt;&lt;/div&gt;(GtkWidget)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-13" target="bGzbynP_THFLUyQUrvt6-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="140" as="sourcePoint" />
+            <mxPoint x="670" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-12" value="&lt;b&gt;Content Manager&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-13" value="&lt;div&gt;&lt;b&gt;Key Grab Window&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(AdwWindow)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEnQ_Mk2z_te3B2iNOMz-13" target="bGzbynP_THFLUyQUrvt6-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="50" />
+              <mxPoint x="330" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TEnQ_Mk2z_te3B2iNOMz-12" target="bGzbynP_THFLUyQUrvt6-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="140" />
+              <mxPoint x="420" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;curved=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bGzbynP_THFLUyQUrvt6-12" target="bGzbynP_THFLUyQUrvt6-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="120" />
+              <mxPoint x="510" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TEnQ_Mk2z_te3B2iNOMz-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
